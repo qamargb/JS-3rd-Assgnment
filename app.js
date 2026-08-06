@@ -57,3 +57,45 @@ for (let i = colors.length - 1; i >= 0; i--) {
 
 
 
+
+var numbers = [5, 10, 15, 20];
+
+for (let i = 0; i < numbers.length; i++) {
+    console.log("Index:", i, "Value:", numbers[i]);
+}
+
+
+
+
+
+
+
+
+
+
+
+var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+
+var count = 0;
+
+for (let i = 0; i < cities.length; i++) {
+    count++;
+}
+
+console.log("Total Cities =", count);
+
+
+
+
+
+
+
+
+
+var numbers = [2, 5, 8, 11, 14, 17, 20];
+
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 === 0) {
+        console.log(numbers[i]);
+    }
+}
